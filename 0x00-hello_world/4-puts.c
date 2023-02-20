@@ -2,10 +2,11 @@
 
 /**
  * main - A function to output a string
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	char str1[] = "\"Programming is like building a multilingual puzzle ";
+	char str1[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(str1);
 
