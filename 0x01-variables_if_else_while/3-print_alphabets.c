@@ -2,15 +2,20 @@
 
 /**
  * main - upper and lower case
+ * Return: 0 (success)
  */
-void main(void)
+int main(void)
 {
 	char l, u;
 
-	for (l = 'a', u = 'A'; l <= 'z', u <= 'Z'; l++, u++)
+	for (l = 'a'; l <= 'z'; l++)
 	{
 		putchar(l);
+	}
+	for (u = 'A'; u <= 'Z'; u++)
+	{
 		putchar(u);
 	}
 	putchar('\n');
+	return (0);
 }
