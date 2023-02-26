@@ -4,7 +4,7 @@
  * _abs -absolute value
  * @n: the number to convert
  *
- * Return: always 0
+ * Return: always n
  */
 int _abs(int n)
 {
@@ -16,5 +16,5 @@ int _abs(int n)
 	{
 		n = n;
 	}
-	return (0);
+	return (n);
 }
