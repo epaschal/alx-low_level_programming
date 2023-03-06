@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
  * _memset - function
  * @s: pointer
  * @b: constant byte
  * @n: number of byte in pointer
  *
- * Return: *s
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
